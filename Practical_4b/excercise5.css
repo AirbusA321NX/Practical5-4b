@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.err {
+    color: red;
+    font-size: 0.7em;
+}
+
+#submitBtn {
+    display: none; /* Hide the submit button by default */
+}
+
+.preview {
+    margin-top: 20px;
+}
+
+.preview img {
+    display: none; /* Images are hidden by default */
+    width: 200px;
+    border: 1px solid #ddd;
+}

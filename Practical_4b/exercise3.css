@@ -1,0 +1,16 @@
+#image-container {
+    width: 200px;  /* Define a fixed width for the container */
+    height: 200px; /* Define a fixed height for the container */
+    margin-top: 20px;
+    border: 1px solid black; /* Optional: add a border to the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures that content does not overflow outside the container */
+}
+
+img {
+    max-width: 100%;  /* Ensures image does not exceed container width */
+    max-height: 100%; /* Ensures image does not exceed container height */
+    object-fit: contain; /* Maintains the aspect ratio and fits the image within the container */
+}
